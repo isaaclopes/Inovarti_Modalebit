@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_Modalebit
+ * @author     Suporte <suporte@inovarti.com.br>
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_Modalebit>
+            <version>0.1.0</version>
+        </Inovarti_Modalebit>
+    </modules>
+
+    <global>
+        <blocks>
+            <modalebit>
+                <class>Inovarti_Modalebit_Block</class>
+            </modalebit>
+        </blocks>
+        <helpers>
+            <modalebit>
+                <class>Inovarti_Modalebit_Helper</class>
+            </modalebit>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <modalebit>
+                    <file>inovarti/modalebit.xml</file>
+                </modalebit>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <Inovarti_Modalebit>
+            <modalebit>
+                <enabled>0</enabled>
+            </modalebit>
+        </Inovarti_Modalebit>
+    </default>
+</config>
